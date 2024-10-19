@@ -1,0 +1,33 @@
+.homepage {
+    height: 100vh; 
+    background-image: url('/images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0); 
+    text-align: center;
+  }
+  
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    margin: 10px;
+    gap: 1rem;
+    color: white;
+}

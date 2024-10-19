@@ -1,0 +1,48 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.bgc{
+    background-color: rgb(196, 196, 36);
+
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    margin: 20px 0;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: #333; 
+    font-size: 24px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+    color: #1E90FF; 
+}
+
+.para{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Akaya Kanadaka", system-ui;
+}
+
+.footer-image img{
+    width: 15vw;
+    height: 20vh;
+}
+

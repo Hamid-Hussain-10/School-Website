@@ -1,0 +1,47 @@
+.school-facilities{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    background-image: url('/images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.school-facilities p{
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.icons i{
+    font-size: 2.5rem;           
+    width: 5rem;                
+    height: 5rem;                
+    border-radius: 50%;          
+    display: flex;               
+    justify-content: center;     
+    align-items: center;  
+    background-color: #000000;  
+}
+
+.icons span{
+    font-size: 2.5rem;           
+    width: 15rem;                 
+    height: 15rem;               
+    border-radius: 50%;          
+    display: flex;               
+    justify-content: center;     
+    align-items: center;    
+    border: 2px solid rgb(200, 0, 240) dotted;  
+    background-color: #000000;   
+    font-family: "Akaya Kanadaka", system-ui;  
+} 
